@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginpage</title>
+
+    <style>
+      body 
+      {
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      }
+      h1 
+      {
+        font-family:cursive;
+      }
+      a
+      { 
+        text-align: center;
+        margin: 5px;
+      }
+      .fa-facebook
+      {
+        color: #3b5998;
+      }
+      .fa-google
+      {
+        background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+      }
+      .fa-linkedin
+      {
+        color: #2867B2
+      }
+      input:focus 
+      {
+        background-color:#f8f0f0;
+      }
+      input
+      {
+        margin-left: 5px;
+        padding: 3px;
+        border-radius: 7px;
+      }
+      button
+      {
+        box-shadow:4px 4px 2px #ddcae0;
+        width:72px;
+        border-radius: 5px;
+        text-align: center;
+      }
+    </style>
+   <script src="https://kit.fontawesome.com/62d5a51683.js" crossorigin="anonymous"></script>
+</head>
+
+<body align="center" background="login trail image.jpg"  >
+  <h1 >Login Here</h1>
+  <form >
+    <i class="fas fa-user-tie"  style="font-size:42px;"></i> <br><br>
+    <label for="fname"> <b>Username</b></label>
+      <input type="text" id="fname" name="fname" placeholder="username" autocomplete="off" required><br><br>
+      <label for="password "><b> Password</b></label>
+      <input type="password" id="password" name="password" placeholder="password" required><br><br>
+      <button font-family="cursive"> Login</button><br>
+      <p align="center">  OR login with</p>
+      
+      <a href=""><i class="fab fa-google" style="font-size:26px;"></i></a>
+      <a href=""><i class="fab fa-facebook" style="font-size:26px;"></i></a>
+      <a href=""><i class="fab fa-linkedin" style="font-size:26px;"></i></a>  <br><br>
+      <a href=""> forgot password ? </a><br><br>
+      New Member?<a href=""> sign up</a>
+    </form>
+</body>
+</html>    
